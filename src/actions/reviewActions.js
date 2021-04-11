@@ -18,7 +18,7 @@ export function postReview(review) {
             }
             return response.json()
         }).then((res) => {
-            window.location="/movielist"
+            window.location.replace="https://csc-hw5-ali.herokuapp.com/#/movielist"
         }).catch((e) => console.log(e));
     }
 }
