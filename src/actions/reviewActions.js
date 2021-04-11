@@ -17,6 +17,8 @@ export function postReview(review) {
                 throw Error(response.statusText);
             }
             return response.json()
+        }).then((res) => {
+            window.location="/movielist"
         }).catch((e) => console.log(e));
     }
 }
