@@ -100,7 +100,7 @@ test=(event) => {
                         </Form.Group>
 
                         <Form.Group controlId="rating">
-                            <Form.Label>Star Rating 0-5</Form.Label>
+                            <Form.Label>Star Rating 1-5</Form.Label>
                             <Form.Control onChange={this.updateDetails} value={this.state.details.rating} type="number" placeholder="Enter Rating" min="0" max="5"/>
                         </Form.Group>
                         <Button onClick={this.submitReview}>Post</Button>
